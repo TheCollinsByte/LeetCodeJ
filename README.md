@@ -42,7 +42,7 @@ Instructions on how to set up the project on a local machine:
     ```bash
     cd LeetCodeJ
     ```
-3. Ensure you have JDK installed. You can download it [here](https://www.oracle.com/java/technologies/downloads/#java21).
+3. Ensure you have JDK version 21 installed. You can download it [here](https://www.oracle.com/java/technologies/downloads/#java21).
 
 4. Compile the project:
     ```bash
