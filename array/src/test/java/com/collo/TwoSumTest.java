@@ -18,4 +18,14 @@ class TwoSumTest {
 
         assertArrayEquals(pair, new int[]{0, 1});
     }
+
+    @Test
+    void hasArrayTwoCandidates() {
+        TwoSum twoSum = new TwoSum();
+        int[] pair = twoSum.twoSum(new int[]{3, 2, 4}, 6);
+
+        LOG.info("Array Two Candidates: {}", pair);
+
+        assertArrayEquals(new int[]{0, 2}, pair);
+    }
 }
