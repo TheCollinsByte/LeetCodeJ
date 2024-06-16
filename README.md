@@ -2,6 +2,9 @@
 
 <h1><a href="https://github.com/TheOddagen/LeetCodeJ">LeetCodeJ</a></h1>
 
+<a href="https://github.com/TheOddagen/LeetCodeJ/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/TheOddagen/LeetCodeJ?style=flat&color=eee&label="> </a>
+
 <a href="https://github.com/TheOddagen/LeetCodeJ/graphs/contributors">
 <img alt="People" src="https://img.shields.io/github/contributors/TheOddagen/LeetCodeJ?style=flat&color=ffaaf2&label=People"> </a>
 
@@ -28,7 +31,6 @@ LeetCodeJ is an open-source project where I solve LeetCode challenges using Java
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -100,8 +102,14 @@ Contributions are Welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+<br/><br/>
 
-Your Name - [collo@fastmail.com](mailto:collo@fastmail.com)
+<div align="center">
 
-Project Link: [https://github.com/TheOddagen/LeetCodeJ](https://github.com/TheOddagen/LeetCodeJ)
+<strong>⭐ hit the star button if you found this useful ⭐</strong><br>
+
+<a href="https://github.com/TheOddagen/Mobile-Payments-Library">Source</a>
+| <a href="https://x.com/TheOddagen" target="_blank">Twitter </a>
+| <a href="http://www.linkedin.com/in/collins-boniface" target="_blank">LinkedIn </a>
+| <a href="mailto:collo@fastmail.com">Email</a>
+</div>
