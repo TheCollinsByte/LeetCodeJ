@@ -10,6 +10,7 @@ import java.util.Map;
  * @author Collins
  */
 public class TwoSum {
+    // TODO: Solution using Binary Search and remainders of the elements less than X
 
     /**
      * Default Constructor.
@@ -29,7 +30,7 @@ public class TwoSum {
      * @param target Targeted sum
      * @return int[] indices of the two numbers
      */
-    public int[] checkPair(int[] nums, int target) {
+    public int[] findPairBruteForce(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = (i + 1); j < nums.length; j++) {
                 if (nums[i] + nums[j] == target) {
@@ -52,7 +53,7 @@ public class TwoSum {
      * @param target Targeted sum
      * @return boolean
      */
-    public boolean hasArrayTwoCandidates(int[] nums, int target) {
+    public boolean hasPairWithSumTwoPointers(int[] nums, int target) {
         Arrays.sort(nums);
 
         int left = 0;
@@ -85,7 +86,7 @@ public class TwoSum {
      * @return int[]  An array of two integers representing the indices of the two numbers that add up to the target.
      *                Returns an empty array if no such indices exist.
      */
-    public int[] pairSum(int[] nums, int target) {
+    public int[] findPairWithSumHashing(int[] nums, int target) {
 
         // value, index
         Map<Integer, Integer> numMap = new HashMap<>();

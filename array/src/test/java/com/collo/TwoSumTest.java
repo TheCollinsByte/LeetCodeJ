@@ -11,9 +11,9 @@ class TwoSumTest {
     private static final Logger LOG = LoggerFactory.getLogger(TwoSumTest.class);
 
     @Test
-    void checkPair() {
+    void findPairBruteForce() {
         TwoSum twoSum = new TwoSum();
-        int[] pair = twoSum.checkPair(new int[]{2, 7, 11, 15}, 9);
+        int[] pair = twoSum.findPairBruteForce(new int[]{2, 7, 11, 15}, 9);
 
         LOG.info("Checked Pair: {}", pair);
 
@@ -21,9 +21,9 @@ class TwoSumTest {
     }
 
     @Test
-    void hasArrayTwoCandidates() {
+    void hasPairWithSumTwoPointers() {
         TwoSum twoSum = new TwoSum();
-        boolean pair = twoSum.hasArrayTwoCandidates(new int[]{3, 2, 4}, 6);
+        boolean pair = twoSum.hasPairWithSumTwoPointers(new int[]{3, 2, 4}, 6);
 
         LOG.info("Array Two Candidates: {}", pair);
 
@@ -31,9 +31,9 @@ class TwoSumTest {
     }
 
     @Test
-    void pairSum() {
+    void findPairWithSumHashing() {
         TwoSum twoSum = new TwoSum();
-        int[] pair = twoSum.pairSum(new int[]{3, 2, 4}, 6);
+        int[] pair = twoSum.findPairWithSumHashing(new int[]{3, 2, 4}, 6);
 
         LOG.info("Array Pair Sum: {}", pair);
 
