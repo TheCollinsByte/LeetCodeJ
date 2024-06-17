@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class TwoSumTest {
     private static final Logger LOG = LoggerFactory.getLogger(TwoSumTest.class);
@@ -22,10 +23,10 @@ class TwoSumTest {
     @Test
     void hasArrayTwoCandidates() {
         TwoSum twoSum = new TwoSum();
-        int[] pair = twoSum.twoSum(new int[]{3, 2, 4}, 6);
+        boolean pair = twoSum.hasArrayTwoCandidates(new int[]{3, 2, 4}, 6);
 
         LOG.info("Array Two Candidates: {}", pair);
 
-        assertArrayEquals(new int[]{0, 2}, pair);
+        assertTrue(pair);
     }
 }

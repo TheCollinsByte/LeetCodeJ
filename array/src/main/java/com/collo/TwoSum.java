@@ -48,9 +48,9 @@ public class TwoSum {
      *
      * @param nums Array of integers
      * @param target Targeted sum
-     * @return int[] indices of the two numbers
+     * @return boolean
      */
-    public int[] twoSum(int[] nums, int target) {
+    public boolean hasArrayTwoCandidates(int[] nums, int target) {
         Arrays.sort(nums);
 
         int left = 0;
@@ -59,13 +59,13 @@ public class TwoSum {
         while (left < right) {
             int sum = nums[left] + nums[right];
             if (sum == target)
-                return new int[]{left, right};
+                return true;
             else if (sum < target)
                 left++;
             else
                 right--;
         }
 
-        return new int[]{};
+        return false;
     }
 }
