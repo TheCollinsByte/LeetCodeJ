@@ -9,14 +9,14 @@ import java.util.Map;
  *
  * @author Collins
  */
-public class TwoSum {
+public class TwoSumSolver {
     // TODO: Solution using Binary Search and remainders of the elements less than X
 
     /**
      * Default Constructor.
      * Constructs a new instance of TwoSum class.
      */
-    public TwoSum() {
+    public TwoSumSolver() {
     }
 
     /**
