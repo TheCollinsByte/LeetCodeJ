@@ -33,10 +33,13 @@ class TwoSumTest {
     @Test
     void findPairWithSumHashing() {
         TwoSum twoSum = new TwoSum();
-        int[] pair = twoSum.findPairWithSumHashing(new int[]{3, 2, 4}, 6);
+        int[] pairOne = twoSum.findPairWithSumHashing(new int[]{3, 2, 4}, 6);
+        int[] pairTwo = twoSum.findPairWithSumHashing(new int[]{2, 7, 11, 15}, 6);
 
-        LOG.info("Array Pair Sum: {}", pair);
+        LOG.info("Array Pair Sum: {}", pairOne);
+        LOG.info("Array Pair Sum: {}", pairTwo);
 
-        assertArrayEquals(pair, new int[]{1, 2});
+        assertArrayEquals(pairOne, new int[]{1, 2});
+        assertArrayEquals(pairTwo, new int[]{1, 2});
     }
 }
