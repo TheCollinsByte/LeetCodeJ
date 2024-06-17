@@ -7,13 +7,13 @@ import org.slf4j.LoggerFactory;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class TwoSumTest {
-    private static final Logger LOG = LoggerFactory.getLogger(TwoSumTest.class);
+class TwoSumSolverTest {
+    private static final Logger LOG = LoggerFactory.getLogger(TwoSumSolverTest.class);
 
     @Test
     void findPairBruteForce() {
-        TwoSum twoSum = new TwoSum();
-        int[] pair = twoSum.findPairBruteForce(new int[]{2, 7, 11, 15}, 9);
+        TwoSumSolver twoSumSolver = new TwoSumSolver();
+        int[] pair = twoSumSolver.findPairBruteForce(new int[]{2, 7, 11, 15}, 9);
 
         LOG.info("Checked Pair: {}", pair);
 
@@ -22,8 +22,8 @@ class TwoSumTest {
 
     @Test
     void hasPairWithSumTwoPointers() {
-        TwoSum twoSum = new TwoSum();
-        boolean pair = twoSum.hasPairWithSumTwoPointers(new int[]{3, 2, 4}, 6);
+        TwoSumSolver twoSumSolver = new TwoSumSolver();
+        boolean pair = twoSumSolver.hasPairWithSumTwoPointers(new int[]{3, 2, 4}, 6);
 
         LOG.info("Array Two Candidates: {}", pair);
 
@@ -32,14 +32,14 @@ class TwoSumTest {
 
     @Test
     void findPairWithSumHashing() {
-        TwoSum twoSum = new TwoSum();
-        int[] pairOne = twoSum.findPairWithSumHashing(new int[]{3, 2, 4}, 6);
-        int[] pairTwo = twoSum.findPairWithSumHashing(new int[]{2, 7, 11, 15}, 6);
+        TwoSumSolver twoSumSolver = new TwoSumSolver();
+        int[] pairOne = twoSumSolver.findPairWithSumHashing(new int[]{3, 2, 4}, 6);
+        int[] pairTwo = twoSumSolver.findPairWithSumHashing(new int[]{2, 7, 11, 15}, 9);
 
         LOG.info("Array Pair Sum: {}", pairOne);
         LOG.info("Array Pair Sum: {}", pairTwo);
 
         assertArrayEquals(pairOne, new int[]{1, 2});
-        assertArrayEquals(pairTwo, new int[]{1, 2});
+        assertArrayEquals(pairTwo, new int[]{0, 1});
     }
 }
