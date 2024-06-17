@@ -72,7 +72,7 @@ To run all tests within a module, use the following command:
 To run a specific test method, use the following command:
 
 ```shell
-./gradlew :array:test --tests com.collo.TwoSumTest.checkPair -Dtest.verbose=true
+./gradlew :array:test --tests com.collo.TwoSumSolverTest.checkPair -Dtest.verbose=true
 ```
 
 ### Run Tests for All Subprojects in verbose Mode
