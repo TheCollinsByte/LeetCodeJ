@@ -29,4 +29,14 @@ class TwoSumTest {
 
         assertTrue(pair);
     }
+
+    @Test
+    void pairSum() {
+        TwoSum twoSum = new TwoSum();
+        int[] pair = twoSum.pairSum(new int[]{3, 2, 4}, 6);
+
+        LOG.info("Array Pair Sum: {}", pair);
+
+        assertArrayEquals(pair, new int[]{1, 2});
+    }
 }
