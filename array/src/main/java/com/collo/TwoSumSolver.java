@@ -7,14 +7,14 @@ import java.util.Map;
 /**
  * <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
  *
- * @author Collins
+ * @author Collins (TheOddagen)
  */
 public class TwoSumSolver {
     // TODO: Solution using Binary Search and remainders of the elements less than X
 
     /**
      * Default Constructor.
-     * Constructs a new instance of TwoSum class.
+     * Constructs a new instance of TwoSumSolver class.
      */
     public TwoSumSolver() {
     }
