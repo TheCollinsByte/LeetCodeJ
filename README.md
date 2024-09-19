@@ -108,7 +108,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <strong>⭐ hit the star button if you found this useful ⭐</strong><br>
 
-<a href="https://github.com/TheCollinsByte/DSA">Source</a>
+<a href="https://github.com/TheCollinsByte/LeetCodeJ">Source</a>
 | <a href="https://x.com/TheCollinsByte" target="_blank">Twitter </a>
 | <a href="http://www.linkedin.com/in/collins-boniface" target="_blank">LinkedIn </a>
 | <a href="mailto:collo@fastmail.com">Email</a>
