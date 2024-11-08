@@ -92,6 +92,9 @@ To run tests for all subprojects in verbose mode:
 - [Move Zeroes](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
 - [Increasing Triplet Subsequence](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
 - [Product of Array Except Self](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
+- [Container With Most Water](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
+- [Maximum Average Subarray I](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
+- [Max Number of K-Sum Pairs](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
 
 ### String
 - [Merge Strings Alternately](string/src/main/java/com/thecollinsbyte/leetcode/string/TwoSumSolver.java)
@@ -100,6 +103,7 @@ To run tests for all subprojects in verbose mode:
 - [Reverse Words in a String](string/src/main/java/com/thecollinsbyte/leetcode/string/TwoSumSolver.java)
 - [Is Subsequence](string/src/main/java/com/thecollinsbyte/leetcode/string/TwoSumSolver.java)
 - [Move Zeroes](string/src/main/java/com/thecollinsbyte/leetcode/string/TwoSumSolver.java)
+- [String Compression](array/src/main/java/com/thecollinsbyte/leetcode/array/TwoSumSolver.java)
 
 ## Contributing
 
