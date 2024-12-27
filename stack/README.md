@@ -6,7 +6,7 @@ In order to make manipulation in a stack, there are certain operations provided 
 
 * <b>push()</b> to insert an element into the stack
 * <b>pop()</b> to remove an element from the stack
-* <b>top() or peek()</b> Returns the top element of the stack without removing it
+* <b>peek() or top()</b> Returns the top element of the stack without removing it
 * <b>isEmpty()</b> return true if the stack is empty else false.
 * <b>isFull()</b> return true if the stack is full else false.
 
@@ -40,7 +40,21 @@ In order to make manipulation in a stack, there are certain operations provided 
   - Pop and process when a closing symbol or operator is encountered.
 
 ## Monotonic Stack
+- A stack where the elements are maintained in a monotonic (either increasing or decreasing) order.
+- Use Cases:
+  - Solving problems like "Next Greater Element", "Largest Rectangle in Histogram" or "Rainwater Trapping".
+- How it works:
+  - Push elements onto the stack while maintaining the monotonic order.
+  - If a new element breaks the order, pop elements from the stack until the order is restored.
 
-
-## Stack for DFS
-
+## Stack for Depth-First Search (DFS)
+- Using a stack (explicit or implicit via recursion) to traverse a graph or tree in a depth first manner.
+- Use Cases:
+  - Finding paths in a maze.
+  - Detecting cycles in a graph.
+  - Exploring nodes deeply before backtracking.
+- How it works:
+  - Push the starting node onto the stack.
+  - While the stack is not empty:
+    - Pop the top node, process it, and push its unvisited neighbors onto the stack.
+  - This process mimics the behaviour of recursive DFS but uses an explicit stack instead.
