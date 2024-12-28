@@ -29,8 +29,15 @@ In order to make manipulation in a stack, there are certain operations provided 
 - Implementation:
   - Modify the standard stack operations to include auxiliary data structure for additional functionalities.
 
-## Nested Structures / Mathematical operations
 
+## Nested Structures / Mathematical operations
+- Using stacks to evaluate or process nested structures like parenthesis, JSON, XML or perform mathematical operations.
+- Use Cases:
+  - <b>Expression Evaluation:</b> Handling operators and operands in postfix, prefix or infix notations.
+  - <b>Balancing Parenthesis:</b> Ensuring that parentheses (or similar structures) are properly matched and nested.
+- How it works:
+  - Push opening symbols or intermediate results onto the stack
+  - Pop and process when a closing symbol or operator is encountered.
 
 ## Monotonic Stack
 
