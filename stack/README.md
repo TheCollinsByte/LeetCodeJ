@@ -76,3 +76,13 @@ Empty stacks cause the most common errors in stack problems. Always check if you
 Using stacks when simpler solutions exist wastes time and adds complexity. If you only need to remember one thing (just the last thing), use a variable instead. Stacks are needed when you need to track a sequence of things.
 
 In monotonic stack problems, forgetting about remaining stack elements after processing all input leads to incomplete answers. Make sure you handle any elements still in the stack after your main processing loop.
+
+### Summary Table
+
+| Term                       | Key Feature                              | Example Use Case                             |
+|----------------------------|------------------------------------------|----------------------------------------------|
+| History Tracking           | Records past states/actions              | Undo/Redo, browser navigation                 |
+| Customized Stack           | Tailored to specific needs               | Min/Max stack, frequency stack                |
+| Nested Structures/Math Ops | Manages hierarchical/complex data        | Expression evaluation, XML parsing            |
+| Monotonic Stack            | Maintains order (increasing/decreasing)  | Next Greater Element, Trapping Rainwater      |
+| Stack for DFS              | Traverses graph/tree paths iteratively   | Maze solving, cycle detection in graphs       |
