@@ -58,3 +58,21 @@ In order to make manipulation in a stack, there are certain operations provided 
   - While the stack is not empty:
     - Pop the top node, process it, and push its unvisited neighbors onto the stack.
   - This process mimics the behaviour of recursive DFS but uses an explicit stack instead.
+
+## How to Spot Stack Problems
+
+Stack problems reveal themselves through their requirements. When you need to process something backward or undo operations, that suggests a stack.
+
+Problems that care about the most recent event or element often need stacks. Quick access to the latest item matters when each new element might affect what came before it.
+
+Nested structures in the input serve as another clue. Expressions with parentheses, nested function calls, and similar hierarchical data naturally map to stack operations. The nesting creates dependencies where inner parts must be processed before outer parts can be resolved.
+
+Finally, when you see problems about finding the next greater or smaller element, consider a monotonic stack. These problems become much simpler when you realize you can discard elements that can't be the answer for future elements.
+
+## Top Mistakes to Avoid
+
+Empty stacks cause the most common errors in stack problems. Always check if your stack has elements before trying to access or remove anything.
+
+Using stacks when simpler solutions exist wastes time and adds complexity. If you only need to remember one thing (just the last thing), use a variable instead. Stacks are needed when you need to track a sequence of things.
+
+In monotonic stack problems, forgetting about remaining stack elements after processing all input leads to incomplete answers. Make sure you handle any elements still in the stack after your main processing loop.
