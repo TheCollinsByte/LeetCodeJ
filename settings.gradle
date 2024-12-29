@@ -2,3 +2,4 @@ rootProject.name = 'LeetCodeJ'
 
 include('array')
 include('string')
+include('stack')
